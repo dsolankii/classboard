@@ -1,0 +1,14 @@
+﻿# monorepo ignores
+node_modules
+dist
+.next
+.out
+.env
+.env.*
+apps/*/node_modules
+apps/*/.next
+apps/*/dist
+.vscode/
+.DS_Store
+npm-debug.log*
+*.log
