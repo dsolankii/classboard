@@ -204,8 +204,5 @@ Run inside each app directory:
 * Restrict CORS and serve over HTTPS.
 * All admin actions are checked on the backend; the UI is not a security boundary.
 
----
 
-## 📜 License
 
-MIT (or your preference)
