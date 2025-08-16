@@ -41,7 +41,8 @@ async function start() {
   await app.register(metricsRoutes);
 
   // start server
-  await app.listen({ port: config.port, host: '0.0.0.0' });
+  const port = Number(process.env.PORT) || 4000;
+  await app.listen({ port, host: "0.0.0.0" }); // host is important for Render
   app.log.info(`Server running on http://localhost:${config.port}`);
 }
 
